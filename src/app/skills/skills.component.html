@@ -5,101 +5,14 @@
     <div class="row">
         <div class="col-md-12">
             <div class="main-timeline">
-                <div class="timeline">
+                <div class="timeline" *ngFor="let i of Images">
                     <a href="#" class="timeline-content">
 
-                        <div class="timeline-icon" data-aos="fade-left"><img src="../assets/Images/Html.png" alt="html">
+                        <div class="timeline-icon" data-aos="fade-left"><img [src]="i.src" alt="html">
                         </div>
-                        <h3 class="title">Web Designing</h3>
+                        <h3 class="title">{{i.h3}}</h3>
                         <p class="description">
-                            HTML is the standard markup language used to create and design web pages. It provides
-                            the basic structure and content of a webpage by using a system of tags and attributes.
-                            These tags define various elements such as headings, paragraphs, images, links, and
-                            more.
-                        </p>
-                    </a>
-                </div>
-                <div class="timeline">
-                    <a href="#" class="timeline-content">
-
-                        <div class="timeline-icon"><img src="../assets/Images/css.png"></div>
-                        <h3 class="title">Web Development</h3>
-                        <p class="description">
-                            CSS is a stylesheet language used to control the presentation and layout of HTML
-                            documents. It enables developers to style the elements of a webpage, such as fonts,
-                            colors, spacing, and positioning, to create visually appealing and user-friendly
-                            interfaces.
-                        </p>
-                    </a>
-                </div>
-                <div class="timeline">
-                    <a href="#" class="timeline-content">
-                        <div class="timeline-icon"><img src="../assets/Images/ANGULAR.png"></div>
-                        <h3 class="title">Web FrameWork</h3>
-                        <p class="description">
-                            CSS is a stylesheet language used to control the presentation and layout of HTML
-                            documents. It enables developers to style the elements of a webpage, such as fonts,
-                            colors, spacing, and positioning, to create visually appealing and user-friendly
-                            interfaces.
-                        </p>
-                    </a>
-                </div>
-                <div class="timeline">
-                    <a href="#" class="timeline-content">
-                        <div class="timeline-icon"><img src="../assets/Images/java.png"></div>
-                        <h3 class="title">Progarmming</h3>
-                        <p class="description">
-                            Java is a high-level, object-oriented programming language originally developed by Sun
-                            Microsystems and released in 1995. It's designed to be platform-independent, meaning
-                            that Java programs can run on any device or operating system that has a Java Virtual
-                            Machine (JVM) installed.
-                        </p>
-                    </a>
-                </div>
-                <div class="timeline">
-                    <a href="#" class="timeline-content">
-                        <div class="timeline-icon"><img src="../assets/Images/python.png"></div>
-                        <h3 class="title">Programming</h3>
-                        <p class="description">
-                            Python is a high-level, interpreted programming language known for its simplicity,
-                            readability, and versatility. It was created by Guido van Rossum and first released in
-                            1991. Python emphasizes code readability and productivity, making it a popular choice
-                            for beginners and experienced developers alike.
-                        </p>
-                    </a>
-                </div>
-                <div class="timeline">
-                    <a href="#" class="timeline-content">
-                        <div class="timeline-icon"><img src="../assets/Images/figma.png"></div>
-                        <h3 class="title">Designing</h3>
-                        <p class="description">
-                            Figma is a collaborative interface design tool used by designers, developers, and other
-                            stakeholders to create, prototype, and collaborate on user interface (UI) and user
-                            experience (UX) designs for websites, web applications, mobile apps, and other digital
-                            products.
-                        </p>
-                    </a>
-                </div>
-                <div class="timeline">
-                    <a href="#" class="timeline-content">
-                        <div class="timeline-icon"><img
-                                src="https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png">
-                        </div>
-                        <h3 class="title">Database</h3>
-                        <p class="description">
-                            
-MySQL is a popular open-source relational database management system (RDBMS) known for its reliability, scalability, and ease of use. It allows users to efficiently store, organize, and retrieve data using structured query language (SQL)
-                        </p>
-                    </a>
-                </div>
-                <div class="timeline">
-                    <a href="#" class="timeline-content">
-                        <div class="timeline-icon"><img src="../assets/Images/github.png"></div>
-                        <h3 class="title">Version Control</h3>
-                        <p class="description">
-                            GitHub is a web-based platform and version control system used by developers to host,
-                            manage, and collaborate on software projects. It provides a wide range of features and
-                            tools that facilitate code sharing, collaboration, and project management
+                            {{i.p}}
                         </p>
                     </a>
                 </div>
