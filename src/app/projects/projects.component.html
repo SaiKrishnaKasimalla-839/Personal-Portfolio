@@ -1,0 +1,15 @@
+
+  <div class="bar" id="projects">
+    <h4>Projects</h4>
+  </div>
+  <div class="container">
+    <div class="card" *ngFor="let i of Images">
+      <img [src]="i.src" alt="">
+      <div class="title">
+        <h3>{{i.h3}}</h3>
+        <p>{{i.p}}</p>
+        <a href="https://github.com/SaiKrishnaKasimalla-839"><i class="fa-solid fa-link"></i></a>
+      </div>
+    </div>
+
+  

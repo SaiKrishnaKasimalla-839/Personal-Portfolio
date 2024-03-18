@@ -1,0 +1,103 @@
+/* .gallery{
+    display: flex;
+    flex-direction: row;
+  margin-left:1%;
+  }
+  .gallery #Image-1{
+  width:70%;
+  margin-left:0.5%;
+  height:30rem;
+  box-shadow: 0 4px 5px 0 #4D728A, 0 6px 10px 0 #4D728A;
+  border-radius:5px;
+  }
+  .gallery #Image-2{
+      margin-left:0.5%;
+  width:29%;
+  height:30rem;
+  box-shadow: 0 4px 5px 0 #4D728A, 0 6px 10px 0 #4D728A;
+  border-radius:5px;
+  }
+  .gallery-1{
+      margin-top:1%;
+      margin-left:1%;
+      box-shadow: 0 4px 5px 0 #4D728A, 0 6px 10px 0 #4D728A;
+      border-radius:5px;
+  }
+  .gallery-1 #Image-3{
+  margin-right:0.5%;
+  width:28%;
+  height:30rem;
+  box-shadow: 0 4px 5px 0 #4D728A, 0 6px 10px 0 #4D728A;
+  border-radius:5px;
+  }
+  .gallery-1 #Image-4{
+      width:70%;
+      height:30rem;
+      box-shadow: 0 4px 5px 0 #4D728A, 0 6px 10px 0 #4D728A;
+      border-radius:5px;
+  }
+  .gallery-2{
+      margin:1% 1% 0 0;
+      margin-left:1%;
+  }
+  .gallery-2 #Image-5{
+      width:50%;
+      height:30rem;
+      box-shadow: 0 4px 5px 0 #4D728A, 0 6px 10px 0 #4D728A;
+      border-radius:5px;
+  }
+  .gallery-2 #Image-6{
+      width:49%;
+      height:30rem;
+      box-shadow: 0 4px 5px 0 #4D728A, 0 6px 10px 0 #4D728A;
+      border-radius:5px;
+      object-fit:cover;
+  }
+  .gallery-3{
+      margin-top:1%;
+      margin-left:1%;
+  }
+  .gallery-3 #Image-7{
+      width:100%;
+      height:30rem;
+      box-shadow: 0 4px 5px 0 #4D728A, 0 6px 10px 0 #4D728A;
+      border-radius:5px;
+  }
+  .gallery-3 #Image-8{
+    margin-bottom:0.5%;
+    width:100%;
+    height:30rem;
+    box-shadow: 0 4px 5px 0 #4D728A, 0 6px 10px 0 #4D728A;
+    border-radius:5px;
+  }
+   @media only screen and (max-width: 768px) {
+          .gallery, .gallery-1, .gallery-2, .gallery-3 {
+              flex-direction: column;
+              margin-left: 0; 
+          }
+          .gallery img, .gallery-1 img, .gallery-2 img, .gallery-3 img {
+              max-width: 100%;
+              width: auto;
+              height: auto;
+              max-height: 100%;
+              margin-bottom: 1%; 
+          }
+         
+      }
+      #button {
+          display: flex;
+          width: 100%;
+          border-radius: 5px;
+          border-color: #8ab3cf;
+          justify-content: center;
+          height: 3rem;
+          box-shadow: 0 4px 5px 0 #4D728A, 0 6px 10px 0 #4D728A;
+          font-size: 16px;
+          cursor: pointer;
+          color: white;
+          margin: 1% 0% 3% 0%;
+          background-color: #4D728A;
+      }
+      #link{
+          text-decoration: none;
+      } */
