@@ -1,6 +1,6 @@
 .main-timeline {
     font-family: 'Poppins', sans-serif;
-    margin-top:1.4%;
+    margin-top: 1.4%;
 }
 
 .main-timeline:after {
@@ -14,13 +14,15 @@
     margin: 0 0 25px 5px;
     float: right;
 }
-.bar{
-    margin-top:2%;
+
+.bar {
+    margin-top: 2%;
     background-color: #4D728A;
-    color:white;
+    color: white;
     display: flex;
     justify-content: center;
 }
+
 .main-timeline .timeline-content {
     color: #fff;
     padding: 15px 15px 15px 290px;
@@ -29,8 +31,9 @@
     display: block;
     position: relative;
     text-decoration: none;
-    background-color:#4D728A;
+    background-color: #4D728A;
 }
+
 .main-timeline .timeline-content:hover {
     text-decoration: none;
 }
@@ -43,13 +46,6 @@
     position: absolute;
     left: 140px;
     top: 0;
-}
-.bar{
-    margin-top:2%;
-    background-color: #4D728A;
-    color:white;
-    display: flex;
-    justify-content: center;
 }
 
 .main-timeline .timeline-year {
@@ -120,9 +116,11 @@
     left: auto;
     right: 139px;
 }
+
 .main-timeline .timeline:nth-child(4n+4) .timeline-year {
     color: #FF9800;
 }
+
 @media screen and (max-width: 767px) {
     .main-timeline .timeline,
     .main-timeline .timeline:nth-child(even) {
@@ -163,45 +161,4 @@
         right: auto;
         top: calc(50% - 35px); /* Adjusted top position */
     }
-}
-
-@media screen and (max-width:767px) {
-    .main-timeline .timeline,
-    .main-timeline .timeline:nth-child(even) {
-        width: 100%;
-        margin: 0 0 30px;
-    }
-
-    .main-timeline .timeline-content,
-    .main-timeline .timeline:nth-child(even) .timeline-content {
-        text-align: center;
-        padding: 200px 15px 15px 15px;
-    }
-
-    .main-timeline .timeline-content:before,
-    .main-timeline .timeline:nth-child(even) .timeline-content:before {
-        width: 100%;
-        height: 100px;
-        transform: translateX(-50%) translateY(0);
-        left: 50%;
-        right: auto;
-        top: 80px;
-    }
-
-    .main-timeline .timeline-year,
-    .main-timeline .timeline:nth-child(even) .timeline-year {
-        transform: translateY(0) translateX(-50%);
-        left: 50%;
-        right: auto;
-        top: 20px;
-    }
-
-    .main-timeline .timeline-icon,
-    .main-timeline .timeline:nth-child(even) .timeline-icon {
-        width: auto;
-        transform: translateY(0) translateX(-50%);
-        left: 50%;
-        right: auto;
-        top: 105px;
-    } 
 }
